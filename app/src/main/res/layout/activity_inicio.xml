@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rotation="-360"
+    android:rotationX="-360"
+    android:rotationY="-360"
+    tools:context=".InicioActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="278dp"
+        android:layout_height="187dp"
+        android:layout_marginTop="120dp"
+        android:rotation="360"
+        android:rotationX="360"
+        android:text="LUKIMAT"
+        android:textSize="60"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="98dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="290dp"
+        android:layout_height="412dp"
+        android:rotation="-4"
+        android:rotationX="-4"
+        android:rotationY="4"
+        app:srcCompat="@drawable/dsss"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="166dp"
+        android:layout_height="70dp"
+        android:rotation="360"
+        android:rotationX="360"
+        android:text="INICIAR"
+        android:textSize="30"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="652dp" />
+</android.support.constraint.ConstraintLayout>
